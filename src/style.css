@@ -1,0 +1,69 @@
+h1,
+h3,
+h5 {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-weight: bold;
+  margin: 60px 0 30px;
+  color: rgb(27, 37, 37);
+  line-height: 0.6;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: rrgb(47, 53, 53);
+  text-align: center;
+}
+
+h1,
+h5 {
+  font-size: 28px;
+  margin-top: 25px;
+  color: rgb(235, 153, 52);
+}
+ul {
+  padding: 0;
+}
+li {
+  text-align: center;
+  list-style: none;
+}
+.condition {
+  text-align: center;
+}
+.sun {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: -30px;
+  font-size: 60px;
+}
+
+.current {
+  text-align: center;
+  font-size: 28px;
+}
+.input-group {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.temperatures {
+  font-size: 32px;
+  font-weight: 800;
+  position: relative;
+  left: 55px;
+  font-family: "Noto Sans JP", sans-serif;
+  color: rgb(143, 106, 65);
+}
+
+.weather {
+  border: 1px solid rgb(143, 106, 65);
+  max-width: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, #f5f3f0 0%, #e7e1de 70%);
+  border-radius: 30px;
+}
