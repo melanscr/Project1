@@ -32,6 +32,14 @@ li {
   text-align: center;
   list-style: none;
 }
+
+.citySearch {
+  border: 1px solid rgb(143, 106, 65);
+  max-width: 600px;
+  margin: 10px 0;
+  background-image: linear-gradient(to right, #f5f3f0 0%, #e7e1de 70%);
+  border-radius: 30px;
+}
 .sourcecode {
   display: block;
   text-align: center;  
@@ -65,10 +73,4 @@ li {
   color: rgb(143, 106, 65);
 }
 
-.weather {
-  border: 1px solid rgb(143, 106, 65);
-  max-width: 600px;
-  margin: 0 auto;
-  background-image: linear-gradient(to right, #f5f3f0 0%, #e7e1de 70%);
-  border-radius: 30px;
-}
+
