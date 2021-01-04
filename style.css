@@ -6,7 +6,7 @@ h5 {
 }
 h1 {
   font-weight: bold;
-  margin: 60px 0 30px;
+  margin: 60px 0 0px;
   color: rgb(27, 37, 37);
   line-height: 0.6;
 }
@@ -14,7 +14,6 @@ h1 {
 h2 {
   font-size: 20px;
   margin-top: 25px;
-  margin-bottom: 15px;
   color: rrgb(47, 53, 53);
   text-align: center;
 }
