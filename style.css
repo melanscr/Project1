@@ -6,17 +6,21 @@ h3 {
   font-weight: bold;
 }
 
-h2 {
-  font-size: 20px;
-  margin-top: 25px;
-  color: rgb(49, 110, 110);
-}
-
 h1,
 h3 {
   font-size: 28px;
   margin-top: 25px;
   color: rgb(235, 153, 52);
+}
+
+h1 {
+  padding-left: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 25px;
+  color: rgb(49, 110, 110);
 }
 
 li {
