@@ -37,20 +37,7 @@ li {
   margin-top: 20px;
   padding-left: 15px;
 }
-.condition {
-  text-align: center;
-}
-.sun {
-  text-align: center;
-  margin-top: -20px;
-  margin-bottom: -30px;
-  font-size: 60px;
-}
 
-.current {
-  text-align: center;
-  font-size: 28px;
-}
 .input-group {
   margin: 0 auto;
   max-width: 400px;
