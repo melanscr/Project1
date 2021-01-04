@@ -1,19 +1,19 @@
 h1,
 h2,
-h5 {
+h3 {
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 20px;
   margin-top: 25px;
-  color: rrgb(47, 53, 53);
-  text-align: center;
+  color: rgb(49, 110, 110);
 }
 
 h1,
-h5 {
+h3 {
   font-size: 28px;
   margin-top: 25px;
   color: rgb(235, 153, 52);
@@ -27,7 +27,7 @@ li {
 .citySearch {
   border: 1px solid rgb(143, 106, 65);
   max-width: 600px;
-  margin: 10px 0;
+  margin: 25px 0;
   background-image: linear-gradient(to right, #f5f3f0 0%, #e7e1de 70%);
   border-radius: 30px;
 }
