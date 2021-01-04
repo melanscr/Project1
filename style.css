@@ -13,8 +13,9 @@ h3 {
   color: rgb(235, 153, 52);
 }
 
-h1 {
-  padding-left: 15px;
+h1,
+h2 {
+  padding-left: 25px;
 }
 
 h2 {
