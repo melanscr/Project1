@@ -22,7 +22,7 @@ function formatDate(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
-let dateElement = document.querySelector("h2");
+let dateElement = document.querySelector("#dayTime");
 let currentTime = new Date();
 dateElement.innerHTML = formatDate(currentTime);
 
