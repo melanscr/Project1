@@ -22,10 +22,6 @@ function formatDate(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
-  let dateElement = document.querySelector("#dayTime");
-  let currentTime = new Date();
-  dateElement.innerHTML = formatDate(currentTime);
-
 function search(city) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
@@ -39,11 +35,9 @@ function updateDestination(event) {
   updateTemperature(cityName);
 }
 
-let form = document.querySelector("#search-form");
-form.addEventListener("submit", updateDestination);
-
 function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
+  
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#pressure").innerHTML = response.data.main.pressure;
   document.querySelector("#wind").innerHTML = Math.round(
@@ -55,6 +49,13 @@ function showTemperature(response) {
   let tempCity = document.querySelector(".current");
   tempCity.innerHTML = `${message}`;
 }
+
+let dateElement = document.querySelector("#dayTime");
+let currentTime = new Date();
+dateElement.innerHTML = formatDate(currentTime);
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", updateDestination);
 
 function updateTemperature(city) {}
 
