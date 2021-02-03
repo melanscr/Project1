@@ -22,9 +22,9 @@ function formatDate(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
-let dateElement = document.querySelector("#dayTime");
-let currentTime = new Date();
-dateElement.innerHTML = formatDate(currentTime);
+  let dateElement = document.querySelector("#dayTime");
+  let currentTime = new Date();
+  dateElement.innerHTML = formatDate(currentTime);
 
 function search(city) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
