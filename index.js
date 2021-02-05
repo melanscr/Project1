@@ -58,4 +58,6 @@ dateElement.innerHTML = formatDate(currentTime);
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", updateDestination);
 
+function updateTemperature(city) {}
+
 search("Boston");
