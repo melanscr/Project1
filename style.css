@@ -8,7 +8,7 @@ h3 {
 
 h1,
 h3 {
-  font-size: 28px;
+  font-size: 36px;
   margin-top: 25px;
   color: rgb(235, 153, 52);
 }
@@ -27,6 +27,7 @@ h2 {
 li {
   text-align: center;
   list-style: none;
+  font-size: 26px;
 }
 
 
