@@ -31,22 +31,23 @@ function search(city) {
 function updateDestination(event) {
   event.preventDefault();
   let cityName = document.querySelector("#city-input").value;
-  document.querySelector(".news").innerHTML = `${cityName}`;
-  updateTemperature(cityName);
+  document.querySelector("h1").innerHTML = `${cityName}`;
+  search(cityName);
 }
 
 function showTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
-  
+  document.querySelector("h1").innerHTML = response.data.name;
+
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#pressure").innerHTML = response.data.main.pressure;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
-  document.querySelector(".condition").innerHTML =
+  document.querySelector("weatherCondition").innerHTML =
     response.data.weather[0].main;
   let message = `Current Temperature is ${temperature}°C`;
-  let tempCity = document.querySelector(".current");
+  let tempCity = document.querySelector(".currentTemperature");
   tempCity.innerHTML = `${message}`;
 }
 
@@ -56,7 +57,5 @@ dateElement.innerHTML = formatDate(currentTime);
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", updateDestination);
-
-function updateTemperature(city) {}
 
 search("Boston");
