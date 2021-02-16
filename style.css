@@ -10,7 +10,7 @@ h1,
 h3 {
   font-size: 32px;
   margin-top: 25px;
-  color: rgb(235, 153, 52);
+  color: rgb(180, 165, 154);
 }
 
 h1,
@@ -21,7 +21,7 @@ h2 {
 h2 {
   font-size: 32px;
   margin-top: 25px;
-  color: rgb(49, 110, 110);
+  color: rgb(180, 165, 154);
 }
 
 li {
@@ -32,11 +32,11 @@ li {
 }
 
 .citySearch {
-  border: 1px solid rgb(143, 106, 65);
+  border: 1px solid rgb(94, 91, 89);
   max-width: 600px;
-  margin: 25px;
-  padding: 15px 0 0;
-  background-image: linear-gradient(to right, #f0f4f5 0%, #dee7e6 50%);
+  margin: 30px auto;
+  padding: 15px;
+  background-image: linear-gradient(to right, #def3f8 0%, #dfe2e2 85%);
   border-radius: 30px;
 }
 .sourcecode {
@@ -55,7 +55,7 @@ li {
   position: relative;
   left: 55px;
   font-family: "Noto Sans JP", sans-serif;
-  color: rgb(143, 106, 65);
+  color: rgb(180, 165, 154);
 }
 
 
